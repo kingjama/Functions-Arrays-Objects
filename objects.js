@@ -19,26 +19,36 @@ const example = {
   
   // Write your intern objects here:
   
+  const hrInfo =[{id: 0, name: "Mitzi", email: "mmelloy0@PushSubscription.edu", gender: "F"}, 
+  {id: 1, name: "Kennan", email: "kdiben1@tinypic.com", gender: "M"},
+  {id: 2, name: "Keven", email: "kmummery2@wikimedia.org", gender: "M"},
+  {id: 3, name: "Gannie", email: "gmartinson3@illinois.edu", gender: "M"},
+  {id: 4, name: "Antonietta", email: "adaine5@samsung.com", gender: "F"}]
   
   // ==== Challenge 2: Reading Object Data ==== 
   // Once your objects are created, log out the following requests from HR into the console:
   
   // Mitzi's name
-  
+  console.log(hrInfo[0].name)
   // Kennan's ID
-  
+  console.log(hrInfo[1].id)
   // Keven's email
-  
+  console.log(hrInfo[2].email)
   // Gannie's name
-  
+  console.log(hrInfo[3].name)
   // Antonietta's Gender
-  
+  console.log(hrInfo[4].gender)
+
   // ==== Challenge 3: Object Methods ==== 
   // Give Kennan the ability to say "Hello, my name is Kennan!" Use the console.log provided as a hint.
   // console.log(kennan.speak());
   
   // Antonietta loves math, give her the ability to multiply two numbers together and return the product. Use the console.log provided as a hint.
   //console.log(antonietta.multiplyNums(3,4));
+
+  const multiplyNums = (a,b) =>
+  {return a * b}
+  console.log(multiplyNums(3,4))
   
   // === Great work! === Head over to the the arrays.js. You may come back and attempt the Stretch Challenge once you have completed the challenges in arrays.js and function-conversion.js.
   
@@ -49,7 +59,6 @@ const example = {
   // 3. Nest a grandchild object in the child object with properties for name and age.  The name will be Sam and the age will be 30
   // 4. Give each of the objects the ability to speak their names using the this keyword.
   
-  const parent = {}
   
   // Log the parent object's name
   
